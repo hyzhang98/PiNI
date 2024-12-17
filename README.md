@@ -2,7 +2,7 @@
 
 ## Introduction
 This is a [Pytorch](https://pytorch.org) implementation of **PiNI**:
->   Sida Huang, Hongyuan Zhang<sup>\*</sup>, and Xuelong Li<sup>\*</sup>, "Enhance Vision-Language Alignment with Noise", in Proceedings of the AAAI Conference on Artificial Intelligence (AAAI), 2025. ([arXiv:TODO](TODO))
+>   Sida Huang, Hongyuan Zhang<sup>\*</sup>, and Xuelong Li<sup>\*</sup>, "Enhance Vision-Language Alignment with Noise", in Proceedings of the AAAI Conference on Artificial Intelligence (AAAI), 2025. ([arXiv](https://arxiv.org/abs/2412.10817))
 
 ![Overview of PiNI](framework.png)
 
@@ -57,5 +57,11 @@ If you have any question about this project, please contact sidahuang2001@gmail.
 If you find the code useful for your research, please consider citing our work:
 
 ```
-TODO
+@inproceedings{PiNI,
+  author={Huang, Sida and Zhang, Hongyuan and Li, Xuelong},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence (AAAI)},
+  title={Enhance Vision-Language Alignment with Noise}, 
+  year={2025},
+  pages={},
+}
 ```
