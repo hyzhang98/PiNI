@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# export CUDA_VISIBLE_DEVICES=2
+# export CUDA_VISIBLE_DEVICES=0
 
 # custom config
 DATA=../data
@@ -27,4 +27,4 @@ else
     DATASET.NUM_SHOTS ${SHOTS}
 fi
 # example
-# nohup bash scripts/clip_vpn_pixel.sh imagenet vit_b16_ep100 1 > train.log 2>&1 &
+# nohup bash scripts/clip_vpn_pixel.sh imagenet imagenet_config 1 > train.log 2>&1 &

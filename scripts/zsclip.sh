@@ -1,5 +1,5 @@
 #!/bin/bash
-# export CUDA_VISIBLE_DEVICES=3
+# export CUDA_VISIBLE_DEVICES=0
 # custom config
 DATA=../data
 MODEL=../pretrained_model/clip
@@ -17,4 +17,4 @@ python train.py \
 --eval-only
 
 # example 
-# nohup bash scripts/zsclip.sh imagenet vit_b16 > train.log 2>&1 &
+# nohup bash scripts/zsclip.sh imagenet_config vit_b16 > train.log 2>&1 &
