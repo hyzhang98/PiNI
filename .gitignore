@@ -18,10 +18,8 @@ exp/*/
 *.blg
 *.bbl
 *.out
-*.gz
 *.aux
 *.pdf
-*.sh
 *~
 paper/.*
 *.dvi
